@@ -1,0 +1,17 @@
+data = eval(input("enter the list"))
+
+result = []
+
+for i in range(len(data-1)):
+     result.append(abs(data[i + 1] - data[i])
+
+check = []
+
+for i,j in zip(result, result[1:]):
+
+    if i<j:
+             check.append(true)
+    else:
+        check.append(false)
+
+print(all(check))
